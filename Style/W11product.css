@@ -1,0 +1,326 @@
+@import url('variable.css');
+
+
+
+section.productF1 {
+    div.productpage {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    div.carimgae {
+        /*float: left;*/
+        margin: 2rem 1rem;
+        img{
+            border-radius: 20px;
+        }
+        div.subimage{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                margin: 0.1rem;
+            }
+        }
+
+    }
+
+    div.Producttitle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        h1 {
+            color: #eaebeb;
+            font-size: 4rem;
+            margin: 0rem 5rem;
+            font-family: "Inter", sans-serif;
+        }
+
+        img {
+            margin: 1rem;
+        }
+    }
+
+    div.Pricepurchase {
+        color: #eaebeb;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+        background-color: #07383F;
+        border-radius: 20px;
+        padding: 0rem 3rem;
+
+        h2 {
+            font-size: 4rem;
+            padding: 0rem 1rem;
+            margin: 0;
+            border: 0;
+            background-color: #07383F   ;
+            font-family: "Inter", sans-serif;
+        }
+        h3{
+            font-size: 3rem;
+            padding: 3rem 1rem;
+            margin: 0;
+            border: 0;
+            background-color: #07383F   ;
+            font-family: "Inter", sans-serif;
+        }
+
+        .button {
+            /*position: relative;*/
+            background-color: #1DBEC8;
+            padding: 1rem 10rem;
+            border-radius: 20px;
+            margin: 1rem 0rem;
+
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-family: "Inter", sans-serif;
+                font-size: 2rem;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+
+            }
+
+
+        }
+
+        .Addtocart {
+            /*position: relative;*/
+            background-color: #080807;
+            padding: 1rem 10rem;
+            border-radius: 20px;
+            margin: 1rem 0rem;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-family: "Inter", sans-serif;
+                font-size: 2rem;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+            }
+
+        }
+    }
+    div.Productdiscription {
+        color: #eaebeb;
+        margin: 2rem 1rem;
+        border-radius: 20px;
+
+        h4 {
+            font-size: 3rem;
+            font-family: "Inter", sans-serif;
+        }
+
+        p {
+            margin: 5rem;
+            font-size: 1.5rem;
+            left: 2rem;
+            font-family: "Inter", sans-serif;
+        }
+    }
+    div.relatedproduct{
+        h4{
+            font-size: 3rem;
+            color: #eaebeb;
+            margin: 2rem 1rem;
+            font-family: "Inter", sans-serif;
+        }
+        div.relatedproductimages {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin: 1rem 5rem;
+            overflow: hidden;
+            align-items: center;
+            /*justify-content: center;*/
+            padding: 0rem 5rem;
+            scrollbar-color: red var(--color-backgroud-html);
+            a {
+                text-decoration: none;
+                font-size: 3rem;
+                font-family: "Inter", sans-serif;
+                color: white;
+                font-family: "Inter", sans-serif;
+            }
+
+            img {
+                border-radius: 20px;
+            }
+        }
+        div.Rb19 {
+            margin: 2rem;
+            background-color: #02060c;
+            border-radius: 20px;
+
+            h3 {
+                text-decoration: none;
+                font-size: 2rem;
+                background-color: #02060c;
+                margin: 0rem 1rem;
+                padding: 0rem;
+                border: 0rem;
+                font-family: "Inter", sans-serif;
+            }
+
+            p {
+                font-size: 1rem;
+                margin: 0rem 1rem;
+                font-family: "Inter", sans-serif;
+            }
+
+            h4 {
+                margin: 2rem 1rem;
+                font-size: 1.5rem;
+                text-decoration: none;
+                font-family: "Inter", sans-serif;
+            }
+        }
+
+        div.sf25 {
+            margin: 2rem;
+            background-color: #02060c;
+            border-radius: 20px;
+
+            h3 {
+                text-decoration: none;
+                font-size: 2rem;
+                background-color: #02060c;
+                margin: 0rem 1rem;
+                padding: 0rem;
+                border: 0rem;
+            }
+
+            p {
+                font-size: 1rem;
+                margin: 0rem 1rem;
+            }
+
+            h4 {
+                margin: 2rem 1rem;
+                font-size: 1.5rem;
+                text-decoration: none;
+            }
+        }
+
+        div.Racingbullsf1 {
+            margin: 2rem;
+            text-decoration: none;
+            border-radius: 20px;
+            background-color: #02060c;
+
+            h3 {
+                text-decoration: none;
+                font-size: 2rem;
+                background-color: #02060c;
+                margin: 0rem 1rem;
+                padding: 0rem;
+                border: 0rem;
+                font-family: "Inter", sans-serif;
+            }
+
+            p {
+                font-size: 1rem;
+                margin: 0rem 1rem;
+                font-family: "Inter", sans-serif;
+            }
+
+            h4 {
+                margin: 2rem 1rem;
+                font-size: 1.5rem;
+                text-decoration: none;
+                font-family: "Inter", sans-serif;
+            }
+        }
+    }
+}
+@media (max-width: 1380px) {
+    section.productF1 {
+        div.productpage {
+            margin: 0 2rem;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div.Producttitle {
+            font-size: 3.5rem;
+            margin: 0rem 3rem;
+        }
+        div.Pricepurchase  {
+            h2 {
+                padding: 2rem 0rem 0rem 0rem;
+                font-size: 3rem;
+            }
+        }
+
+        div.Pricepurchase {
+            padding: 0rem 2rem;
+        }
+
+        div.relatedproductimages {
+            margin: 1rem 3rem;
+            padding: 0rem 3rem;
+        }
+    }
+}
+
+@media (max-width: 915px) {
+    section.productF1{
+        div.productpage {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div.Producttitle {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        div.Producttitle  {
+            h1 {
+                font-size: 3rem;
+                margin: 1rem 0;
+            }
+        }
+
+        div.Pricepurchase {
+            width: 80%;
+            margin: 2rem auto;
+        }
+
+        div.Pricepurchase {
+            h2 {
+                padding: 2rem 0rem 0rem 0rem;
+                font-size: 3rem;
+            }
+        }
+
+        div.Pricepurchase  {
+            h3 {
+                font-size: 2.5rem;
+                padding: 2rem 1rem;
+            }
+        }
+
+        div.Productdiscription {
+            p {
+                margin: 3rem;
+                font-size: 1.3rem;
+            }
+        }
+
+        div.relatedproductimages {
+            margin: 1rem 2rem;
+            padding: 0rem 2rem;
+        }
+    }
+}

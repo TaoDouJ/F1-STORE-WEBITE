@@ -1,0 +1,151 @@
+@import url('variable.css');
+
+
+
+
+div.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    text-align: center;
+
+    h1 {
+        color: #eaebeb;
+        font-size: 4rem;
+        margin: 0rem 2rem;
+        font-family: "Inter", sans-serif;
+    }
+
+    img {
+        margin: 1rem;
+        max-width: 100%;
+        height: auto;
+
+    }
+}
+
+div.list, div.list2 {
+    display: flex;
+    flex-direction: row;
+    border: solid 4px #EF5295;
+    border-radius: 60px;
+    margin: 5rem;
+    background-size: 20rem;
+    flex-wrap: wrap;
+
+    img {
+        border-radius: 60px;
+        max-width: 100%;
+        height: auto;
+        flex: 1;
+
+    }
+
+    div.listtext {
+        color: #eaebeb;
+        flex: 1;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            color: #eaebeb;
+            margin: 1rem 0;
+            font-size: 1.5rem;
+            font-family: "Inter", sans-serif;
+        }
+
+        div.Titilelist {
+            h2 {
+                color: white;
+                font-size: 2.5rem;
+                margin: 0;
+                border: 0;
+                font-family: "Inter", sans-serif;
+                text-align: center;
+                background: 2REM;
+            }
+        }
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding: 1rem 0;
+        margin: 0;
+        border: 0;
+        font-family: "Inter", sans-serif;
+    }
+
+    .button {
+        background-color: #002FB9;
+        padding: 1rem 2rem;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 1rem;
+        align-self: center;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: "Inter", sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+}
+
+div.list2 {
+    flex-direction: row-reverse;
+    border: solid 4px #00FC71;
+}
+
+
+@media screen and (max-width: 915px) {
+    div.title {
+        flex-direction: column;
+
+        h1 {
+            font-size: 3rem;
+            margin: 1rem 0rem;
+        }
+
+        img {
+            margin: 1rem 0rem;
+        }
+        div.list, div.list2 {
+            flex-direction: column;
+        }
+    }
+
+    div.list, div.list2 {
+        margin: 3rem;
+        border-radius: 40px;
+        flex-direction: column;
+        padding: 1rem;
+
+
+        img {
+            border-radius: 40px 40px 0 0;
+            min-width: 100%;
+        }
+
+        div.listtext {
+            padding: 1.5rem;
+            min-width: 100%;
+        }
+        h3{
+            background: 0rem;
+        }
+    }
+
+    .button {
+        padding: 1rem 3rem;
+
+        a {
+            font-size: 1.3rem;
+        }
+    }
+}

@@ -1,0 +1,418 @@
+@import url('variable.css');
+html, body, h1, h2, h3, h5, h6 {
+    margin: 0REM;
+    padding: 0REM;
+    border: 0rem;
+    .dark-mode {
+        background-color: var(--color-backgroud-html); /* Use your variable here */
+        color: #eaebeb; /* Light text color for contrast */
+    }
+
+    /* CSS: Light Mode (the toggle state) */
+    .light-mode {
+        background-color: white;
+        color: black;
+
+    }
+}
+div.Frontpage\.image{
+    text-align: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    img{
+        opacity: 20%;
+    }
+}
+    .Button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #FF1801;
+        padding: 1rem;
+        border-radius: 4px;
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: "Inter", sans-serif;
+            font-size: 2rem;
+        }
+    }
+
+
+
+section.Featured {
+    /*Featured product styling*/
+
+    div.Featured\.title {
+        font-size: 2.5rem;
+        color: white;
+        margin-top: 5rem;
+        margin-left: 10rem;
+        font-family: "Inter", sans-serif;
+    }
+
+    div.feature\.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 1rem 5rem;
+        overflow: auto;
+        align-items: center;
+        padding: 0rem 5rem;
+        scrollbar-color: #FF1801 var(--color-backgroud-html);
+
+        a {
+            text-decoration: none;
+            font-size: 3rem;
+            font-family: "Inter", sans-serif;
+            color: #eaebeb;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+    }
+/*Indivdual product */
+    div.sf25 {
+        margin: 2rem;
+        background-color: #02060c;
+        border-radius: 20px;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    }
+
+    div.Rb19 {
+        margin: 2rem;
+        background-color: #02060c;
+        border-radius: 20px;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    }
+
+    div.W11 {
+        margin: 2rem;
+        background-color: #02060c;
+        border-radius: 20px;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    }
+
+    div.Racingbullsf1 {
+        margin: 2rem;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: #02060c;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+section.Sale {
+    div.Sale\.title {
+        font-size: 2.5rem;
+        color: white;
+        margin-top: 5rem;
+        margin-left: 10rem;
+        font-family: "Inter", sans-serif;
+    }
+
+    div.Sale\.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 1rem 5rem;
+        overflow: auto;
+        align-items: center;
+        /*justify-content: center;*/
+        padding: 0rem 5rem;
+        scrollbar-color: #FF1801 var(--color-backgroud-html);
+
+        a {
+            text-decoration: none;
+            font-size: 3rem;
+            font-family: "Inter", sans-serif;
+            color: white;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+    }
+
+    /*Indivdual product */
+    div.rb8 {
+        margin: 2rem;
+        background-color: #02060c;
+        border-radius: 20px;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+            p{
+                color: white;
+                background-color: #FF1801;
+                text-align: center;
+                padding: 0rem;
+                margin: 0;
+                border: 0;
+                border-radius: 1rem;
+
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #FF1801;
+            p{
+                opacity: 20%;
+                text-decoration: line-through;
+                color: gray;
+            }
+        }
+
+    }
+
+
+    div.kickc44 {
+        margin: 2rem;
+        background-color: #02060c;
+        border-radius: 20px;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+            p{
+                color: white;
+                background-color: #FF1801;
+                text-align: center;
+                padding: 0rem;
+                margin: 0;
+                border: 0;
+                border-radius: 1rem;
+
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #FF1801;
+            p{
+                opacity: 20%;
+                text-decoration: line-through;
+                color: gray;
+            }
+        }
+    }
+
+
+    div.alpine {
+        margin: 2rem;
+        background-color: #02060c;
+        border-radius: 20px;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+            p{
+                color: white;
+                background-color: #FF1801;
+                text-align: center;
+                padding: 0rem;
+                margin: 0;
+                border: 0;
+                border-radius: 1rem;
+
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #FF1801;
+            p{
+                opacity: 20%;
+                text-decoration: line-through;
+                color: gray;
+            }
+        }
+    }
+
+
+    div.RacingPoint {
+        margin: 2rem;
+        background-color: #02060c;
+        border-radius: 20px;
+        img{
+            object-fit: cover;
+        }
+
+        h3 {
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #02060c;
+            margin: 0rem 1rem;
+            padding: 0rem;
+            border: 0rem;
+            p{
+                color: white;
+                background-color: #FF1801;
+                text-align: center;
+                padding: 0rem;
+                margin: 0;
+                border: 0;
+                border-radius: 1rem;
+
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0rem 1rem;
+        }
+
+        h4 {
+            margin: 2rem 1rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #FF1801;
+            p{
+                opacity: 20%;
+                text-decoration: line-through;
+                color: gray;
+            }
+        }
+    }
+
+    /* CSS: Default Dark Mode */
+
+
+}

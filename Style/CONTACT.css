@@ -1,0 +1,54 @@
+@import url('variable.css');
+h1,p,a,span,button,h2{
+    font-family: "Inter", sans-serif;
+    color: #eaebeb;
+}
+
+div.formulaire{
+    div.Formulairtitle{
+        h1 {
+            font-size: 3rem;
+            text-align: start;
+        }
+    }
+    div.FORMULAIRTEXT{
+        font-size: 2rem;
+        text-align: center;
+    }
+    div.Formulairreel{
+        text-align: center;
+        font-size: 2rem;
+        input{
+            background-color: transparent;
+            width: 95%;
+            margin: 1rem;
+            padding: 2rem;
+            box-sizing: border-box;
+            border: #FF1801 solid 3px;
+            border-radius: 40px;
+            color: #eaebeb;
+        }
+
+        textarea{
+            background-color: transparent;
+            width: 95%;
+            margin: 1rem;
+            padding: 2rem;
+            box-sizing: border-box;
+            border: #FF1801 solid 3px;
+            border-radius: 40px;
+            color: #eaebeb;
+        }
+        button{
+            background-color: #FF1801;
+            margin: 1rem;
+            padding: 2rem;
+            box-sizing: border-box;
+            border: #FF1801 solid 3px;
+            font-size: 2rem;
+            border-radius: 40px;
+        }
+
+    }
+
+}

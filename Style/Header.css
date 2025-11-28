@@ -1,0 +1,54 @@
+@import url('variable.css');
+
+html, body, h1, h2, h3, h5, h6 {
+    margin: 0REM;
+    padding: 0REM;
+    border: 0rem;
+}
+.inter-phont {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+header{
+    background-color: var(--color-backgroud-header);
+    line-height: 2rem;
+    border-bottom: outset red 5px;
+    h1{
+        color: red;
+        font-size: 3rem;
+        padding: 2rem;
+        font-family: "Inter", sans-serif;
+        background-color: #eaebeb;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 0rem 2rem;
+        font-family: "Inter", sans-serif;
+    }
+    div.Headermenu{
+        color: black;
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: black;
+        padding: 2rem 1rem;
+        letter-spacing: 2px;
+    }
+
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        justify-content: space-between;
+    }
+    button{
+        border: none    ;
+        font-size: 2rem;
+        background-color: var(--color-backgroud-header);
+    }
+
+
